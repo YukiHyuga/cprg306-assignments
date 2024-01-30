@@ -5,7 +5,7 @@ const StudentInfo = () => {
     return (
         <div>
             <p>Dave Luna</p>
-            <Link href={"https://github.com/YukiHyuga/cprg306-assignments"}>Link to GitHub Repository</Link>
+            <div className="hover:underline hover:text-pink-400"><Link href={"https://github.com/YukiHyuga/cprg306-assignments"}>Link to GitHub Repository</Link></div>
         </div>
     );
 };
