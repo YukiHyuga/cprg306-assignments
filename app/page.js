@@ -11,9 +11,14 @@ export default function Home() {
       <Link href={"/week-2"}>Week 2</Link>
       </li>
       </div>
-      <div className="text-3xl border-4 border-black p-10 ">
+      <div className="text-3xl border-4 border-black p-10 mb-4 ">
       <li className="hover:text-pink-400">
         <Link href={"/week-3"}>Week 3</Link>
+        </li>
+      </div>
+      <div className="text-3xl border-4 border-black p-10 mb-4 ">
+      <li className="hover:text-pink-400">
+        <Link href={"/week-4"}>Week 4</Link>
         </li>
       </div>
     </div>
