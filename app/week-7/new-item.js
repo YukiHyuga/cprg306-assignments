@@ -57,7 +57,7 @@ export default function NewItem({ onAddItem }) {
                   <h1 className="text-2xl text-gray-800 font-bold mb-8">
                   </h1>
                   <form onSubmit={handleSubmit}>
-                      <label className="block mb-4">
+                      <label className="block mb-2">
                           <span className="text-black text-xl font-bold">Add New Item:</span>
                           <input
                               required
@@ -67,7 +67,7 @@ export default function NewItem({ onAddItem }) {
                               className="mt-1 p-1 block w-full rounded-md text-black bg-black-100 focus:bg-white"
                           />
                       </label>
-                      <label className="block mb-4">
+                      <label className="block mb-">
                           <span className="text-black">Quantity:</span>
                           <input
                               type="number"

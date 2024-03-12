@@ -25,15 +25,15 @@ export default function Page(){
     return(
         <div>
             <h1 className="text-4xl font-bold m-6 text-black-300">Shopping List</h1>
-        <main className="flex">
-            <div className="w-1/2">
+            <main className="flex">
+            <div className="w-1/3 ">
                 <NewItem onAddItem={handleAddItem} />
                 <ItemList items={items} onItemSelect={handleItemSelect} />
             </div>
-            <div className="w-1/2">
+            <div className="w-1/3">
                 <MealIdeas ingredient={itemName} />
             </div>
-        </main>
+            </main>
         </div>
     );
 }
