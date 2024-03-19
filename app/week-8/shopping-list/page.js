@@ -25,17 +25,18 @@ export default function Page(){
         setItems([...items, newItem]);
     }
 
-
+    // Uses use effect to redirect the user to the landing page
     useEffect(() => {
         if (!user) {
-          window.location.href = "/week-8"; // Redirect to the landing page
+          window.location.href = "/week-8"; 
         }
-      }, [user]); // Run useEffect whenever user changes
+      }, [user]);
     
-      // Check if the user is not logged in and return null to prevent rendering the shopping list page
+      // This checks if the user is not logged in and will return a null.
       if (!user) {
         return null;
       }
+
     
     return(
         <div>
